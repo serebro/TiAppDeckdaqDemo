@@ -1,0 +1,6 @@
+<Alloy>
+	<View class="container">
+		<ScrollableView id="scroll"></ScrollableView>
+		<View id="pageFlipContainer"></View>
+	</View>
+</Alloy>

@@ -1,0 +1,154 @@
+"#container": {
+	top: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "composite",
+	backgroundImage: "/common/navbar/fabric.jpg",
+}
+
+".panel": {
+	backgroundImage: "/common/store/panel.png",
+	width: Ti.UI.FILL,
+	height: 43,
+	top: 0,
+	left: 0,
+	layout: "horizontal",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+}
+
+"#switchToAlbums": {
+	backgroundDisabledImage: "/common/store/btn-left.png",
+	backgroundImage: "/common/store/btn-left-active.png",
+	backgroundLeftCap: 15,
+	width: 120,
+	height: 29,
+	top: 4,
+	enabled: false,
+	focusable: true,
+}
+
+"#switchToDecks": {
+	backgroundDisabledImage: "/common/store/btn-right.png",
+	backgroundImage: "/common/store/btn-right-active.png",
+	backgroundLeftCap: 15,
+	width: 120,
+	height: 29,
+	top: 4,
+	enabled: true,
+	focusable: true,
+}
+
+"#buyAlbums": {
+	backgroundImage: "/common/store/buy-albums.png",
+	width: 85,
+	height: 17,
+	top: 4,
+}
+
+"#buyDecks": {
+	backgroundImage: "/common/store/buy-packs.png",
+	width: 75,
+	height: 17,
+	top: 4,
+}
+
+"#shelvesContainer": {
+	top: 43,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+}
+
+".lights": {
+	top: 0,
+	backgroundImage: "/common/store/lights.png",
+	height: 35,
+	width: Ti.UI.FILL,
+	zIndex: 2,
+}
+
+"#storeAlbums": {
+	top: 0,
+	left: 0,
+	width: Ti.Platform.displayCaps.platformWidth,
+	height: Ti.UI.FILL,
+	backgroundImage: "/common/store/albums-bg.png",
+	backgroundRepeat: true,
+	layout: "composite",
+}
+
+"#storeDecks": {
+	top: 0,
+	left: 0,
+	width: Ti.Platform.displayCaps.platformWidth,
+	height: Ti.UI.FILL,
+	backgroundImage: "/common/store/decks-bg.png",
+	backgroundRepeat: true,
+	layout: "composite",
+}
+
+".scroll-view": {
+	contentWidth: Ti.UI.FILL,
+	contentHeight: "auto",
+	showVerticalScrollIndicator: true,
+	showHorizontalScrollIndicator: false,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+}
+
+".box": {
+	top: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "vertical",
+}
+
+".shelf-album": {
+	width: Ti.UI.FILL,
+	left: 13,
+	right: 13,
+	height: 240,
+}
+
+".shelf-first": {
+	top: 10,
+}
+
+".shelf-other": {
+	top: -20,
+}
+
+".glass": {
+	left: 0,
+	right: 0,
+	width: Ti.UI.FILL,
+	height: 80,
+	backgroundImage: "/common/store/shelf.png",
+	backgroundLeftCap: 20,
+	bottom: 0,
+}
+
+".left": {
+	left: 9,
+}
+
+".right": {
+	right: 9,
+}
+
+".album": {
+	bottom: 55,
+	zIndex: 2,
+}
+
+".shelf-deck": {
+	top: 10,
+	width: Ti.UI.FILL,
+	left: 30,
+	right: 30,
+	height: 180,
+}
+
+".deck": {
+}

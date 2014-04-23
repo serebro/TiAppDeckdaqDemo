@@ -1,0 +1,6 @@
+"#container": {
+	left: 0,
+	top: 0,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+}

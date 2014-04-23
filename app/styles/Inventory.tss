@@ -1,0 +1,27 @@
+".container": {
+	top: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundImage: "/common/inventory/bg.png",
+}
+
+"#scroll": {
+	top: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundImage: "/common/inventory/felt.png",
+	showPagingControl: true,
+	pagingControlHeight: 40,
+	currentPage: 0,
+	pagingControlOnTop: false,
+	pagingControlColor : "transparent",
+}
+
+".pack": {
+	top: 80,
+	left: 40,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+}

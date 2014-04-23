@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="container">
+		<View id="bg"></View>
+		<View class="pocket"></View>
+		<View class="pocket"></View>
+	</View>
+</Alloy>

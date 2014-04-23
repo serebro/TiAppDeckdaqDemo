@@ -1,0 +1,70 @@
+".container" : {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+}
+
+"#coins": {
+	top: 5,
+	left: 5,
+	backgroundImage: "/common/hud/money-bg.png",
+	width: 192,
+	height: 42,
+}
+
+"#coinsCounter": {
+	font: {fontSize: 14, fontWeight: 'bold', fontFamily: 'Oswald-Bold'},
+	left: 52,
+	top: 11,
+	width: 70,
+	height: 18,
+	color: '#765539',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+}
+
+"#coinsBuy": {
+	top: 5,
+	right: 4,
+	backgroundImage: "/common/hud/buy.png",
+	backgroundSelectedImage: "/common/hud/buy_active.png",
+	width: 62,
+	height: 27,
+}
+
+"#store": {
+	backgroundImage: "/common/lobby/store.png",
+	width: 244,
+	height: 115,
+	right: -30,
+	top: 180,
+}
+
+"#inventory": {
+	backgroundImage: "/common/lobby/inventory.png",
+	width: 180,
+	height: 102,
+	right: -10,
+	top: 365,
+}
+
+"#albums": {
+	backgroundImage: "/common/lobby/albums.png",
+	width: 260,
+	height: 140,
+	left: -50,
+	top: 330,
+}
+
+"#buildId": {
+	font: { fontSize: 10 },
+	shadowColor: '#000',
+	shadowOffset: {x:1, y:1},
+//	shadowRadius: 1,
+	color: '#fff',
+	fontWeight: 'bold',
+//	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+//	borderColor: 'red',
+//	borderWeight: 1,
+	bottom: 3,
+	right: 3,
+	zIndex: 1000,
+}

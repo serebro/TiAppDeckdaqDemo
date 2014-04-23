@@ -1,0 +1,23 @@
+<Alloy>
+	<View id="container">
+		<View class="panel">
+			<Button id="switchToAlbums"><Label id="buyAlbums"></Label></Button>
+			<Button id="switchToDecks"><Label id="buyDecks"></Label></Button>
+		</View>
+
+		<ScrollableView id="shelvesContainer">
+			<View id="storeAlbums">
+				<View class="lights"></View>
+				<ScrollView class="scroll-view">
+					<View id="frameAlbums" class="box"></View>
+				</ScrollView>
+			</View>
+			<View id="storeDecks">
+				<View class="lights"></View>
+				<ScrollView class="scroll-view">
+					<View id="frameDecks" class="box"></View>
+				</ScrollView>
+			</View>
+		</ScrollableView>
+	</View>
+</Alloy>

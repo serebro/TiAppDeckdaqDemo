@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" exitOnClose="true">
+		<View id="wait"></View>
+	</Window>
+</Alloy>

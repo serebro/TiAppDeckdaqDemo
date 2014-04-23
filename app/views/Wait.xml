@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="wait">
+		<View class="overlay"></View>
+		<ActivityIndicator id="indicator"></ActivityIndicator>
+	</View>
+</Alloy>

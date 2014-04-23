@@ -1,0 +1,43 @@
+{
+    "global": {
+        "theme": "garfield",
+        "buildId": "0.0.9",
+		"requestTimeout": 60000
+    },
+    "os:android": {
+        "someValue": "Android"
+    },
+    "os:ios": {
+        "someValue": "iOS"
+    },
+    "sourcemap": false,
+    "adapters": [],
+    "env:development": {
+        "app_id": "359353720753340",
+        "api_key": "529bc116b758ee3338901207",
+        "request_domain": "http://fbdev.deckdaq.com",
+        "cdn": "http://fbdev.deckdaq.com",
+        "forceDialogAuth": true
+    },
+    "env:production": {
+        "app_id": "359353720753340",
+        "api_key": "529bc116b758ee3338901207",
+        "request_domain": "http://fbdev.deckdaq.com",
+        "cdn": "http://fbdev.deckdaq.com",
+        "forceDialogAuth": true
+    },
+    "env:test": {
+        "app_id": "359353720753340",
+        "api_key": "529bc116b758ee3338901207",
+        "request_domain": "http://fbdev.deckdaq.com",
+        "cdn": "http://fbdev.deckdaq.com",
+        "forceDialogAuth": true
+    },
+    "dependencies": {
+        "button3d": "0.1",
+        "card": "0.1",
+        "album": "0.1",
+        "deck": "0.1"
+    },
+    "autoStyle": true
+}

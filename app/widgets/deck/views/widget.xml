@@ -1,0 +1,9 @@
+<Alloy>
+	<View id="container">
+		<View id="shadow"></View>
+		<View id="image"></View>
+		<View id="effect"></View>
+		<View id="opened"></View>
+		<View id="frame"></View>
+	</View>
+</Alloy>

@@ -1,0 +1,26 @@
+"#container": {
+	left: 0,
+	top: 0,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+}
+
+
+"#bg": {
+
+}
+
+".pocket": {
+
+}
+
+/*
+'.blue': {
+	backgroundImage: WPATH('blue.png'),
+	backgroundSelectedImage: WPATH('/blue_active.png'),
+	backgroundDisabledImage: WPATH('/blue_active.png'),
+	borderRadius: 3,
+	width: 200,
+	height: 51,
+}
+*/

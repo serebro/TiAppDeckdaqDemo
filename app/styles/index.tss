@@ -1,0 +1,33 @@
+".container": {
+	backgroundColor: '#000000',
+	fullscreen: 'true',
+	backgroundImage: 'lobby.png',
+}
+
+"#lobby": {
+}
+
+
+
+
+
+
+
+
+
+
+// Any device that does not fit any of the below platforms
+// "Label": {
+// }
+
+// iPhone
+// "Label[platform=ios formFactor=handheld]": {
+// }
+
+// iPad and iPad mini
+// "Label[platform=ios formFactor=tablet]": { 
+// }
+
+// Android handheld and tablet devices
+// "Label[platform=android]": { 
+// }

@@ -1,0 +1,5 @@
+<Alloy>
+	<Button id="button">
+		<Label id="label" autoStyle="true"></Label>
+	</Button>
+</Alloy>

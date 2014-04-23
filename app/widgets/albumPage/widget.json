@@ -1,0 +1,12 @@
+{
+	"id": "albumPage",
+	"description" : "Deckdaq album page",
+	"author": "Deckdaq",
+	"version": "0.1",
+	"copyright":"Copyright (c) 2013 by Deckdaq",
+	"license":"Public Domain",
+	"min-alloy-version": "0.1.16",
+	"min-titanium-version":"2.0",
+	"tags":"utility",
+	"platforms":"ios,android"
+}

@@ -1,0 +1,58 @@
+".container": {
+	top: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundImage: "/common/inventory/bg.png",
+}
+
+"#scroll": {
+	top: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	/*bottom: 20,*/
+	/*backgroundColor: "#ff9900",*/
+	showPagingControl: true,
+	/*pagingControlHeight: 40,*/
+	currentPage: 0,
+	pagingControlOnTop: false,
+	pagingControlColor : "transparent",
+}
+
+".pack": {
+	top: 0,
+	left: 0,
+}
+
+".name": {
+	top: 10,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	color: "#a38445",
+	shadowColor: "#fff",
+	shadowOffset: {x: 1, y: 1},
+	shadowRadius: 1,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+}
+".name[platform=ios]": {
+	font: {fontSize: 22, fontFamily: "Oswald-Bold"}
+}
+".name[platform=android]": {
+	font: {fontSize: 22, fontFamily: "Oswald-Bold"}
+}
+
+".album": {
+	top: 50,
+	left: 28,
+}
+
+"#pageFlipContainer": {
+	visible: false,
+	top: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+//	borderColor: "red",
+//	borderWeight: 1,
+}

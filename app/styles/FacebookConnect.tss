@@ -1,0 +1,16 @@
+".container" : {
+	backgroundColor: "#fff",
+	top: 0,
+	height: Ti.Platform.displayCaps.platformHeight,
+	zIndex: 999,
+}
+
+".title" : {
+	top: 30,
+	color: "black",
+	font: {fontSize: 14, fontWeight: "bold"},
+}
+
+"#login": {
+	top: 100
+}

@@ -1,0 +1,9 @@
+<Alloy>
+	<View id="container">
+		<View id="ribbonRight"></View>
+		<View id="image"></View>
+		<View id="frame"></View>
+		<View id="title"></View>
+		<View id="upgradeCount"></View>
+	</View>
+</Alloy>

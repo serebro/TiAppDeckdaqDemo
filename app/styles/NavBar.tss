@@ -1,0 +1,84 @@
+".container": {
+	width: Ti.Platform.displayCaps.platformWidth,
+	height: Ti.Platform.displayCaps.platformHeight,
+	left: "100%",
+	top: 0,
+}
+
+"#drawer": {
+	zIndex: 10,
+	width: Ti.Platform.displayCaps.platformWidth,
+	height: Ti.Platform.displayCaps.platformHeight,
+}
+
+".bar": {
+	backgroundImage: "/common/navbar/bg.png",
+	backgroundRepeat: true,
+	height: 57,
+	width: Ti.Platform.displayCaps.platformWidth,
+	top: 0,
+	left: 0,
+}
+
+"#view": {
+	top: 53,
+	left: 0,
+	width: Ti.Platform.displayCaps.platformWidth,
+	height: Ti.UI.FILL,
+	zIndex: 3,
+}
+
+"#title": {
+	top: 8,
+	left: 50,
+	right: 50,
+	height: 30,
+	color: "#999",
+	shadowColor: "#fff",
+	shadowOffset: {x: 1, y: 1},
+	shadowRadius: 1,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+}
+"#title[platform=ios]": {
+	font: {fontSize: 22, fontFamily: "Oswald-Bold"}
+}
+"#title[platform=android]": {
+	font: {fontSize: 22, fontFamily: "Oswald-Bold"}
+}
+
+"#back": {
+	top: 8,
+	left: 12,
+	width: 34,
+	height: 32,
+	backgroundImage: "/common/navbar/back.png",
+}
+
+"#menu": {
+	top: 8,
+	right: 12,
+	width: 34,
+	height: 32,
+	backgroundImage: "/common/navbar/menu.png",
+}
+
+"#sideMenu": {
+	zIndex: 5,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	top: 0,
+	left: "20%",
+	backgroundImage: "/common/navbar/fabric.jpg"
+}
+
+".menu-item": {
+	backgroundColor: "transparent",
+	color: "#ccc",
+	font: {
+		fontFamily: "Oswald-Bold",
+		fontSize: 22,
+	},
+	shadowColor: '#fff',
+	shadowOffset: {x:1, y:1},
+	height: 60,
+}

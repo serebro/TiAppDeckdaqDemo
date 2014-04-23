@@ -1,0 +1,19 @@
+<Alloy>
+	<View id="containerview">
+		<View id="leftMenu">
+			<TableView id="leftTableView" />
+		</View>
+		<View id="rightMenu">
+			<TableView id="rightTableView" />
+		</View>
+		<View id="movableview">
+			<View id="shadowview">
+				<View id="navview">
+					<Button id="leftButton" />
+					<Button id="rightButton" />
+				</View>
+				<View id="contentview" />
+			</View>
+		</View>
+	</View>
+</Alloy>

@@ -1,0 +1,21 @@
+<Alloy>
+	<View class="container">
+		<View id="drawer">
+			<ImageView class="bar">
+				<Button id="back"></Button>
+				<Label id="title"></Label>
+				<Button id="menu"></Button>
+			</ImageView>
+			<View id="view"></View>
+		</View>
+		<TableView id="sideMenu">
+			<TableViewRow class="menu-item" title="Name" id="username"></TableViewRow>
+			<TableViewRow class="menu-item" title="Lobby" id="lobby"></TableViewRow>
+			<TableViewRow class="menu-item" title="Store" id="store"></TableViewRow>
+			<TableViewRow class="menu-item" title="Inventory" id="inventory"></TableViewRow>
+			<TableViewRow class="menu-item" title="Albums" id="albums"></TableViewRow>
+			<TableViewRow class="menu-item" title="Sound" id="sound"></TableViewRow>
+			<TableViewRow class="menu-item" title="Log Out" id="logout"></TableViewRow>
+		</TableView>
+	</View>
+</Alloy>

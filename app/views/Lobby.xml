@@ -1,0 +1,14 @@
+<Alloy>
+	<View class="container">
+		<View id="coins">
+			<Label id="coinsCounter"></Label>
+			<Button id="coinsBuy"></Button>
+		</View>
+
+		<Button id="store"></Button>
+		<Button id="inventory"></Button>
+		<Button id="albums"></Button>
+
+		<Label id="buildId"></Label>
+	</View>
+</Alloy>

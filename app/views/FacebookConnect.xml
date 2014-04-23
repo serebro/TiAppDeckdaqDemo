@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Label text="Facebook Connect" class="title" />
+		<Widget src="button3d" id="login" text="Facebook login" style="blue"/>
+	</Window>
+</Alloy>
